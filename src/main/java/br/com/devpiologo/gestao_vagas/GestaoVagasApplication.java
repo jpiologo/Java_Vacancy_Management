@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GestaoVagasApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GestaoVagasApplication.class, args);
+        SpringApplication.run(GestaoVagasApplication.class, args);
 	}
 
 }
