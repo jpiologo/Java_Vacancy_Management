@@ -1,8 +1,6 @@
-package br.com.devpiologo.gestao_vagas.modules.candidate.controller;
+package br.com.devpiologo.gestao_vagas.modules.candidate.controllers;
 
-import br.com.devpiologo.gestao_vagas.exceptions.UserFoundException;
-import br.com.devpiologo.gestao_vagas.modules.candidate.CandidateEntity;
-import br.com.devpiologo.gestao_vagas.modules.candidate.CandidateRepository;
+import br.com.devpiologo.gestao_vagas.modules.candidate.entities.CandidateEntity;
 import br.com.devpiologo.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

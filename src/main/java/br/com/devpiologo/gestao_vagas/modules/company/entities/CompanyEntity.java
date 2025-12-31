@@ -24,7 +24,7 @@ public class CompanyEntity {
     private String name;
 
     @Email(message = "Must be a valid e-mail address.")
-    private String mail;
+    private String email;
     private String website;
     private String description;
 
