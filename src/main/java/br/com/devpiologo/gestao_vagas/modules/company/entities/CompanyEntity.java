@@ -32,7 +32,7 @@ public class CompanyEntity {
     @Pattern(regexp = "\\S+", message = "Special characters are not allowed.")
     private String username;
 
-    @Length(min = 10, max = 50, message = "Password must have between 10 and 50 characters.")
+    @Length(min = 8, message = "Password must have at least 8 characters.")
     private String password;
 
     @CreationTimestamp
